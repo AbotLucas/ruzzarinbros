@@ -1,0 +1,281 @@
+body {
+    width: 100%;
+    margin: 0;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body a {
+    text-decoration: none;
+    color: #FFECB3;
+}
+
+body a:hover {
+    text-decoration: none;
+    color: #BDBDBD;
+}
+
+header {
+    display: flex;
+    align-content: space-between;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    background: black;
+}
+
+header nav {
+    height: 47px;
+    background: rgb(255, 211, 0);
+}
+
+header nav ul {
+    margin: 0;
+    width: 350px;
+    display: flex;
+    list-style: none;
+    flex-flow: wrap row;
+    justify-content: space-around;
+}
+
+header nav ul li img{
+   height: 37px;
+}
+
+header a img {
+    height: 47px;
+    margin-bottom: 0;
+}
+
+header a {
+    margin-bottom: 0;
+}
+
+.splash {
+    height: 90vh;
+    display: flex;
+    background: url(../images/RuzzBros3.png) center center fixed;
+    background-size: cover;
+}
+
+.splashTitle {
+    top: 30%;
+    left: 10%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.splashTitle h1 {
+    width: fit-content;
+    font-family: 'Oswald', sans-serif;
+    background:rgba(255, 160, 0, 0.9);
+    border-bottom: 1px solid #333;
+    box-sizing: border-box;
+}
+.splashTitle h2 {
+    width: fit-content;
+    color: black;
+    background-size: contain;
+    font-family: 'Oswald', sans-serif;
+    background: rgba(255, 211, 0, 0.9);
+    border-bottom: 1px solid #333;
+}
+
+.splashTitle p {
+    background: rgba(0, 0, 0, 0.9);
+    color:#FFA000;
+    border-bottom: 1px solid #FFA000;
+}
+
+.splashTitle a, .btn-card {
+    padding: 5px 20px 5px 20px;
+    background:rgba(255, 160, 0, 1);
+    width: fit-content;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #333;
+    font-family: 'Oswald', sans-serif;
+}
+
+.splashTitle a:hover, .btn-card:hover {
+    padding: 5px 20px 5px 20px;
+    background:rgb(255, 211, 0);
+    width: fit-content;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.info {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: black;
+    color:#FFA000;
+}
+
+.info p{
+    white-space:pre-wrap;
+}
+
+.espacio {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.player {
+    background: #212121;
+}
+
+.player div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.player div span iframe {
+    order: 1;
+}
+
+.player div p{
+    color: #FFC107;
+    font-family: 'Oswald', sans-serif;
+    white-space: pre-wrap;
+    order: 2;
+}
+
+.player div p i {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.player div p i:nth-child(1){
+    font-size: 30px;
+}
+
+.vermas {
+    margin-top: 20px;
+    align-self: flex-end;
+    order: 3;
+}
+
+.quote {
+    text-align: center;
+   background-color: black;
+   color: #FFA000;
+}
+
+.quote h2 {
+    display: inline;
+}
+
+.quote h2 i {
+   font-family: 'Oswald', sans-serif;
+   font-size: 1.5rem;
+   text-decoration: underline;
+}
+
+.quote i {
+    width: 100px;
+}
+
+.catalogo {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: space-between;
+    align-items: center;
+    background: #212121;
+    color: #FFC107;
+}
+
+.catalogo .season {
+    display:flex;
+    flex-flow: wrap row;
+    justify-content: center;
+}
+
+.catalogo h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+
+.carta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14) !important;
+    min-height: 300px;
+    max-width: 320px;
+    width: 250px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carta .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalogo .season .carta:hover {
+    background-color: rgb(14, 13, 13);
+    border: 1px solid rgba(255, 160, 0, 0.4);
+}
+
+.catalogo .season .carta .content h6 {
+    text-decoration: underline;
+    font-family: 'Oswald', sans-serif;
+}
+
+.catalogo .season .carta .content p {
+    font-size: 12px;
+}
+
+.btn-card {
+    top: 800px;
+}
+
+.btn-card img {
+    width: 30px;
+}
+
+.extraseasons {
+    padding-top: 30px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+}
+
+.extraseasons a {
+    margin: 5px;
+}
+
+.extraseasons h3 {
+    margin-top: 0;
+}
+
+footer {
+    padding: 20px;
+    background: black;
+    color:rgba(255, 160, 0, 1);
+    display: flex;
+    justify-content: center;
+}
+
